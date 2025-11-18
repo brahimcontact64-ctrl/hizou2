@@ -9,11 +9,27 @@ interface LanguageContextType {
 }
 
 const translations: Record<string, Record<Language, string>> = {
+
   // ---------------- NAV ----------------
   'nav.home': { fr: 'Accueil', ar: 'الرئيسية', en: 'Home' },
   'nav.services': { fr: 'Services', ar: 'الخدمات', en: 'Services' },
   'nav.projects': { fr: 'Projets', ar: 'المشاريع', en: 'Projects' },
   'nav.contact': { fr: 'Contact', ar: 'اتصل بنا', en: 'Contact' },
+
+  // ---------------- HEADER ----------------
+  'header.logo': {
+    fr: 'Hizou Agency',
+    ar: 'حزو أجينسي',
+    en: 'Hizou Agency'
+  },
+
+  // ---------------- FOOTER ----------------
+  'footer.developed': {
+   fr: 'Développé par Brahim Beldjilali',
+  ar: 'تم تطويره من طرف إبراهيم بلجيلالي',
+  en: 'Developed by Brahim Beldjilali'
+
+  },
 
   // ---------------- HERO ----------------
   'hero.title': {
@@ -114,7 +130,7 @@ const translations: Record<string, Record<Language, string>> = {
   'video.section3.title': { fr: 'Écriture de Scripts', ar: 'كتابة السكريبت', en: 'Script Writing' },
   'video.section4.title': { fr: 'Voix-Off', ar: 'التعليق الصوتي', en: 'Voice-Over' },
 
-  // ---------------- DESIGN SERVICE (FIXED + ADDED) ----------------
+  // ---------------- DESIGN SERVICE ----------------
   'design.title': {
     fr: 'Service de Design',
     ar: 'خدمة التصميم',
@@ -125,7 +141,6 @@ const translations: Record<string, Record<Language, string>> = {
     ar: 'نصمّم هويات بصرية حديثة واحترافية تناسب علامتك التجارية.',
     en: 'We create modern and professional visual identities tailored to your brand.'
   },
-
   'design.section1.title': { fr: 'Identité Visuelle', ar: 'الهوية البصرية', en: 'Visual Identity' },
   'design.section2.title': { fr: 'Graphisme & Réseaux Sociaux', ar: 'التصميم ووسائل التواصل', en: 'Graphic Design & Social Media' },
   'design.section3.title': { fr: 'Retouche & Photomontage', ar: 'المونتاج ومعالجة الصور', en: 'Retouching & Photomontage' },
