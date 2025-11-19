@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ------------------------- RTL FULL FIX ------------------------- */
+html[dir="rtl"] body {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+html[dir="ltr"] body {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+/* Override ALL elements inside RTL */
+html[dir="rtl"] * {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+html[dir="ltr"] * {
+  direction: ltr !important;
+  text-align: left !important;
+}
