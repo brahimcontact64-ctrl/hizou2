@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
-// 🟠 import your real logo here:
+
 import logo from '../assets/logo/hizou-logo.png';
 
 export default function Header() {
