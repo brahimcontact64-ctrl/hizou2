@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ------------------------- RTL FULL FIX ------------------------- */
+
 html[dir="rtl"] body {
   direction: rtl !important;
   text-align: right !important;
@@ -13,7 +13,7 @@ html[dir="ltr"] body {
   text-align: left !important;
 }
 
-/* Override ALL elements inside RTL */
+
 html[dir="rtl"] * {
   direction: rtl !important;
   text-align: right !important;

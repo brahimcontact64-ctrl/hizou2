@@ -65,11 +65,11 @@ export default function Home() {
         {/* HERO TEXT */}
         <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white drop-shadow-xl mb-4">
-            {t('hero.title')}
+           
           </h1>
 
           <p className="text-xl md:text-2xl lg:text-3xl text-white/90 mb-10">
-            {t('hero.subtitle')}
+            
           </p>
 
           <button
